@@ -1,0 +1,242 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+    .menu_bar{
+    background-color: gold;
+    height:50px;
+    width:100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+.menu_bar ul{
+    display:flex;
+justify-content: space-around;
+margin:0px 50px;
+padding:0px 10px;
+list-style: none;
+
+   
+}
+.menu_bar ul li{
+    padding:0px 28px;
+    position: relative;
+    margin:-30px 50px;
+}
+.menu_bar ul li a{
+    color:white;
+    font-size: 18px;
+    text-decoration:solid;
+}
+.menu_bar ul li a:hover{
+    color:greenyellow;
+}
+.dropdown-1{
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown-1{
+    display: block;
+    position: absolute;
+    left:0;
+    top:100%;
+    background-color: gold;
+    margin:-50px 11px;
+    width:120px;
+}
+.dropdown-1 ul{
+    display: block;
+    margin:10px 0px;
+    
+}
+.dropdown-1 ul li{
+    width:40px;
+    margin:10px -20px;
+   
+    align-items: center;
+}
+.dropdown-1 ul li a{
+    color:black;
+}
+.dropdown-2{
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown-2{
+    display: block;
+    position: absolute;
+    left:0;
+    top:100%;
+    background-color: gold;
+    margin:-50px 30px;
+    width:160px;
+}
+.dropdown-2 ul{
+    display: block;
+    margin:10px 0px;
+    
+}
+.dropdown-2 ul li{
+    width:100px;
+    margin:0px -10px;
+}
+.dropdown-2 ul li a{
+    color:black;
+}
+.dropdown-3{
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown-3{
+    display: block;
+    position: absolute;
+    left:0;
+    top:100%;
+    background-color: gold;
+    margin:-50px 30px;
+    width:140px;
+}
+.dropdown-3 ul{
+    display: block;
+    margin:10px 0px;
+    padding:0px 20px;
+}
+.dropdown-3 ul li{
+    width:60px;
+    margin:0px -20px;
+}
+.dropdown-3 ul li a{
+    color:black;
+}
+.dropdown-4{
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown-4{
+    display: block;
+    position: absolute;
+    left:0;
+    top:100%;
+    background-color: gold;
+    margin:-50px 30px;
+    padding:0px 0px;
+    width:160px;
+   
+   
+}
+.dropdown-4 ul{
+    display: block;
+    margin:10px 0px;
+}
+.dropdown-4 ul li{
+    width:100px;
+    margin:0px -10px; 
+}
+.dropdown-4 ul li a{
+    color:black;
+}
+.search{
+border:2px solid black;
+border-radius: 10px;
+height:20px;
+width:auto;
+margin-top:100px;
+
+
+}
+.quiz-container {
+    width: 700px;
+    margin: 50px 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+form{
+ /* background-color: gray; */
+ display:flex;
+ margin-left: 30px;
+}
+input[type="radio"]{
+    background-color: black;
+    font-size: 100px;
+    width:15px;
+    height:15px;
+}
+label {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+label.correct {
+    background-color: green;
+    color: white;
+}
+
+label.wrong {
+    background-color: red;
+    color: white;
+}
+h3{
+    background-color: black;
+}
+h3.wrong{
+    color:white;
+}
+#correct{
+    background-color: green;
+}
+.button{
+    opacity:0;
+    padding:10px 20px;
+    margin:0px 45px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+/* .quiz-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #aaa;
+}
+h1{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+label.correct {
+    background-color: green;
+    color: white;
+}
+
+label.wrong {
+    background-color: red;
+    color: white;
+} */
