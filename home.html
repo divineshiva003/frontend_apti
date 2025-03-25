@@ -9,181 +9,195 @@
     <script src="https://unpkg.com/axios@latest/dist/axios.min.js"></script>
     <title>AptiGeeks</title>
 </head>
+<style>
+    .profile{
+        margin-top: -14px;
+       
+    }
+    .profile_section{
+        padding:0;
+        margin-left:15px;
+        margin-top:0px;
+        margin-right: -80px;
+        
+        
+
+        }
+    .profile_section div{
+        
+        background-color: gold;
+        border:2px solid black;
+        border-radius: 5px;
+        display: none;
+    }
+</style>
 <body>
     
     <div class="container">
-    <div class="navbar">
-        <nav class="menu_bar">
-            <img src="logo-removebg-preview.png" class="logo" width="40px">
-            <ul>
-            <li><a href="#">Aptitude</a>
-                <div class="dropdown-1">
-                <ul >
-                    <li><a href="">Aptitude</a></li>
-                    <br>
-                    <li><a href="#">Reasoning</a></li>
-                    <br>
-                    <li><a href="logicalquestion.html">logical</a></li>
-                    <br>
-                    <li><a href="#">Test</a></li>
-                 </ul>
-                 </div>
-              </li>
-            <li><a href="#">Verbal & Non-Verbal</a>
-                <div class="dropdown-2">
+        <div class="navbar">
+            <nav class="menu_bar">
+                <img src="logo-removebg-preview.png" class="logo" width="40px">
                 <ul>
-                    <li><a href="dropdown/synonym.html">Synonym</a></li>
-                    <br>
-                    <li><a href="dropdown/antonym.html">Antonym</a></li>
-                    <br>
-                    <li><a href="dropdown/phrase.html">Phrase & Verbs</a></li>
-                    <br>
-                    <li><a href="dropdown/verbal_ability.html">Verbal Ability</a></li>
-                </ul>
-                </div>
-        </li>
-            <li><a href="#">Clock Problem</a>
-                <div class="dropdown-3">
-                <ul >
-                    <li><a href="#">Time & Age</a></li>
-                    <br>
-                    <li><a href="#">Difference</a></li>
-                    <br>
-                    <li><a href="#">Architectural</a></li>
-                 </ul>
-                </div>
+                <li><a href="#">aptitude</a>
+                    <div class="dropdown-1">
+                    <ul >
+                        <li><a href="aptitude.html">aptitude</a></li>
+                        <br>
+                        <li><a href="./database/reasoning.html">reasoning</a></li>
+                        <br>
+                        <li><a href="logicalquestion.html">logical</a></li>
+                        <br>
+                        <li><a href="./dropdown/verbal_ability.html">test</a></li>
+                     </ul>
+                     </div>
+                  </li>
+                <li><a href="#">verbal & non verbal</a>
+                    <div class="dropdown-2">
+                    <ul>
+                        <li><a href="./dropdown/synonym.html">synonym</a></li>
+                        <br>
+                        <li><a href="./dropdown/antonym.html">antonym</a></li>
+                        <br>
+                        <li><a href="./dropdown/phrase.html">phrase & verbs</a></li>
+                    </ul>
+                    </div>
             </li>
-            <li><a href="#">Numerical Approach</a>
-                <div  class="dropdown-4">
-                <ul>
-                <li><a href="#">Number System</a></li>
-                <br>
-                <li><a href="#">Square & Cube</a></li>
-                <br>
-                <li><a href="#">Root</a></li>
-        </ul>
+                <li><a href="#">clock problem</a>
+                    <div class="dropdown-3">
+                    <ul >
+                        <li><a href="./dropdown/time&age.html">time & age</a></li>
+                        <br>
+                        <li><a href="#">difference</a></li>
+                        <br>
+                        <li><a href="#">architectural</a></li>
+                     </ul>
+                    </div>
+                </li>
+                <li><a href="#">numerical approach</a>
+                    <div  class="dropdown-4">
+                    <ul>
+                    <li><a href="./dropdown/number_system.html">number system</a></li>
+                    <br>
+                    <li><a href="./dropdown/square&cube.html">square & cube</a></li>
+                    <br>
+                    <li><a href="./dropdown/root.html">root</a></li>
+            </ul>
+        </div>
+        </li>
+            <div class="small">
+                 <input class="search" type="text" placeholder="Search">
+            </div>
+            <div class="profile_section">
+    <img src="./image/Aloknath Pal.png"height="50px" width="50px" class="profile" id="image">
+    <div id="hide">
+        <p>profile</p>
+        <p id="hide1" ><a href="index.html">Log out</a></p>
     </div>
-    </li>
-        <div class="small">
-             <input class="search" type="text" placeholder="Search">
+            </ul>
+        </nav>
+        </div>
+        <br>
+        
+       
+        <hr>
+    <div class="container1">
+     <div class="items">
+        <div class="items-1">
+        <div class="item-1">
+           <h1>General Aptitude</h1>
+           <ul>
+            <li><a href="aptitude.html" >Arithmetic Aptitude</a></li>
+            <li><a href="" >Data Interpretation</a></li>
+            <li><a href="">Online Aptitude Test</a></li>
+            <li><a href="" >Data Interpretation Test</a></li>
+           </ul>
+        </div>
+        <div class="item-2">
+            <h1>Interview</h1>
+            <ul> 
+                <li><a href="./database/current_affairs.html" >Current Affair</a></li>
+                <li><a href="./database/indian_politics.html" >Indian Politics</a></li>
+                <li><a href="./database/gk.html" >G.K</a></li>
+                <li><a href="./database/general_science.html">General Science</a></li>
+               </ul>
         </div>
        
-          <img src="./image/Aloknath Pal.png"height="50px" width="50px" class="profile" id="image" onclick="show()">
-          <div class="prof" >
-            <p class="" id="hide" >profile</p>
-            <p class="" id="hide1" >logout</p>
-       </div>
-      
-        </ul>
-    </nav>
+    </div>
+    <div class="items-2">
+        <div class="item-3">
+           <h1>Online Test</h1>
+           <ul>
+            <li><a href="aptitude.html">Aptitude Test</a></li>
+            <li><a href="./dropdown/verbal_ability.html">Verbal Ability Test</a></li>
+            <li><a href="./logicalquestion.html">Logical Reasoning Test</a></li>
+            <li><a href="./database/java.html">Java Programming Test</a></li>
+           </ul>
+        </div>
+        <div class="item-4">
+            <h1>Technical MCQs</h1>
+            <ul>
+                <li><a href="./database/networking.html">Networking Questions</a></li>
+                <li><a href="./database/digitalelectronics.html" >Database Questions</a></li>
+                <li><a href="./database/basicelectronic.html" >Basic Electronics</a></li>
+                <li><a href="./database/digitalelectronics.html">Digital Electronics</a></li>
+               </ul>
+        </div>
+        
+        
+    </div>
+    <div class="items-3">
+        <div class="item-5">
+            <h1>Current Affair & GK</h1>
+            <ul>
+                <li><a href="./database/webdevelopment.html">Web Development</a></li>
+                <li><a href="">Data Interpretation</a></li>
+                <li><a href="">Online Aptitude Test</a></li>
+                <li><a href="" >Data Interpretation Test</a></li>
+               </ul>
+        </div>
+        
+        <div class="item-6">
+            <h1>Language</h1>
+            <ul>
+             <li><a href="./database/cprogramming.html">C</a></li>
+             <li><a href="./database/c++.html">C++</a></li>
+             <li><a href="./database/java.html">Java</a></li>
+             <li><a href="./database/python.html">Python</a></li>
+            </ul>
+         </div>
+    </div>
+    </div>
+    <div class="news-and-notice">
+        <h1>news and notice</h1>
+    <div class="main">
+        <h1>Latest News</h1>
+        <section id="news">
+            
+            <ul id="news-list"></ul>
+           
+        </section>
+    <hr>
+    <div class="all-notice">
+        <h1>notice</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, minus!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, eveniet.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, eveniet.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, eveniet.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, eveniet.</p>
+    </div>
+    </div>
+    </div>
     </div>
     <br>
+    <div class="notice">
+        <hr>
+        <h1 class="ani">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, omnis vocere sed eligeno, perferendis esse quas praesentium assumenda illo animi fugiat iusto?</h1>
     
-   
+        <h1 class="ani">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, omnis vocere sed eligeno, perferendis esse quas praesentium assumenda illo animi fugiat iusto?</h1>
     <hr>
-<div class="container1">
- <div class="items">
-    <div class="items-1">
-    <div class="item-1">
-       <h1>General Aptitude</h1>
-       <ul>
-        <li><a href="aptitude.html">Arithmetic Aptitude</a></li>
-        <li><a href="">Data Interpretation</a></li>
-        <li><a href="">Online Aptitude Test</a></li>
-        <li><a href="">Data Interpretation Test</a></li>
-       </ul>
     </div>
-    <div class="item-2">
-        <h1>Interview</h1>
-        <ul>
-            <li><a href="">Arithmetic Aptitude</a></li>
-            <li><a href="">Data Interpretation</a></li>
-            <li><a href="">Online Aptitude Test</a></li>
-            <li><a href="">Data Interpretation Test</a></li>
-           </ul>
     </div>
-   
 </div>
-<div class="items-2">
-    <div class="item-3">
-       <h1>Online Test</h1>
-       <ul>
-        <li><a href="">Aptitude Test</a></li>
-        <li><a href="">Verbal Ability Test</a></li>
-        <li><a href="">Logical Reasoning Test</a></li>
-        <li><a href="">Java Programming Test</a></li>
-       </ul>
-    </div>
-    <div class="item-4">
-        <h1>Technical MCQs</h1>
-        <ul>
-            <li><a href="">Networking Questions</a></li>
-            <li><a href="">Database Questions</a></li>
-            <li><a href="database/basicelectronic.html">Basic Electronics</a></li>
-            <li><a href="database/digitalelectronics.html">Digital Electronics</a></li>
-           </ul>
-    </div>
-    
-    
-</div>
-<div class="items-3">
-    <div class="item-5">
-        <h1>Current Affair & GK</h1>
-        <ul>
-            <li><a href="database/current_affairs.html">Current Affairs</a></li>
-            <li><a href="database/general_science.html">General Science</a></li>
-            <li><a href="database/gk.html">General Knowledge</a></li>
-            <li><a href="database/indian_politics.html">Indian Politics</a></li>
-           </ul>
-    </div>
-    
-    <div class="item-6">
-        <h1>Language</h1>
-        <ul>
-         <li><a href="database/cprogramming.html">C</a></li>
-         <li><a href="database/c++.html">C++</a></li>
-         <li><a href="database/java.html">Java</a></li>
-         <li><a href="database/python.html">Python</a></li>
-        </ul>
-     </div>
-</div>
-<div class="suggestion">
-    <h1>Suggestion:-</h1>
-    
-    <p class="suggestion_form"><a href="https://forms.gle/EnfryzUoh8xnipCT8">https://forms.gle/EnfryzUoh8xnipCT8</a></p>
-</div>
-</div>
-<div class="news-and-notice">
-    <h1>news and notice</h1>
-<div class="main">
-    <h1>Latest News</h1>
-    <section id="news">
-        
-        <ul id="news-list"></ul>
-       
-    </section>
-<hr>
-<div class="all-notice">
-    <h1>notice</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, minus!</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, eveniet.</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, eveniet.</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, eveniet.</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, eveniet.</p>
-</div>
-</div>
-</div>
-</div>
-<br>
-<div class="notice">
-    <hr>
-    <h1 class="ani">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, omnis vocere sed eligeno, perferendis esse quas praesentium assumenda illo animi fugiat iusto?</h1>
-
-    <h1 class="ani">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, omnis vocere sed eligeno, perferendis esse quas praesentium assumenda illo animi fugiat iusto?</h1>
-<hr>
-</div>
-</div>
-
 <div class="footer">
     <p>privacy policy</p>
     <p> <a href="contact.html">Contact us</a></p>
@@ -197,16 +211,30 @@
         let hide1=document.querySelector("#hide1");
         let prof=document.querySelector(".prof");
        let isshow=true;
-        function show(){
-           if(isshow){
-                prof.style.display="none";
-                isshow=false;
-           }
-           else{
-            prof.style.display="block";
-            isshow=true;
-           }
+       image.onclick=function(){
+            hide.classList.toggle('active');
         }
+        // function show(){
+        //    if(isshow){
+        //         prof.style.display="none";
+        //         isshow=false;
+        //    }
+        //    else{
+        //     prof.style.display="block";
+        //     isshow=true;
+        //    }
+        // }  
+        // image.addEventListener("click",()=>{
+        //     if(isshow==true){
+        //         hide.style.display="block";
+        //     }
+        //     else{
+        //         hide.style.display="none";
+
+        //     }
+        // })
+       
+
     
     let form=document.querySelector(".suggestion_form");
     let signup=document.querySelector(".signup");

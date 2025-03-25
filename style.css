@@ -43,10 +43,12 @@ list-style: none;
     display: block;
     position: absolute;
     left:0;
-    top:100%;
+    top:30%;
     background-color:gold;
     margin:6px 11px;
     width:120px;
+    border:2px solid black;
+    border-radius: 5px;
     
 }
 .dropdown-1 ul{
@@ -75,10 +77,12 @@ list-style: none;
     display: block;
     position: absolute;
     left:0;
-    top:100%;
+    top:30%;
     background-color: gold;
     margin:6px 30px;
     width:160px;
+    border:2px solid black;
+    border-radius: 5px;
 }
 .dropdown-2 ul{
     display: block;
@@ -100,10 +104,12 @@ list-style: none;
     display: block;
     position: absolute;
     left:0;
-    top:100%;
+    top:30%;
     background-color: gold;
     margin:6px 30px;
     width:140px;
+    border:2px solid black;
+    border-radius: 5px;
 }
 .dropdown-3 ul{
     display: block;
@@ -125,11 +131,13 @@ list-style: none;
     display: block;
     position: absolute;
     left:0;
-    top:100%;
+    top:30%;
     background-color: gold;
     margin:6px 30px;
     padding:0px 0px;
     width:160px;
+    border:2px solid black;
+    border-radius: 5px;
    
    
 }
@@ -235,14 +243,24 @@ height:50px;
     
 }
 #hide{
+    position:absolute;
     padding:3px 0px;
-    font-size: 30px;
-    margin-top:30px;
+    font-size: 20px;
+    margin-top:0px;
+    margin-left: 0px;
+    visibility:hidden;
+    
 }
+
 #hide1{
     padding:3px 0px;
-    font-size: 30px;
-    margin-top:30px;
+    font-size: 20px;
+    margin-top:0px;
+    margin-left:0px;
+}
+#hide.active{
+    opacity:1;
+    visibility: visible;
 }
 .items{
     /* margin:10px -300px; */
@@ -800,12 +818,18 @@ m-link{
 }
 .show{
     display: none;
-    margin:15px 0px;
+    /* margin:15px 0px; */
+    pointer-events: all;
 }
 .show1{
     display: none;
-    margin:15px 0px;
+    /* margin:15px 0px; */
 }
 .none{
     display:block;
+}
+
+#hide.active{
+    /* max-height:500px */
+    display: block;
 }
