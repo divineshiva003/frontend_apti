@@ -38,49 +38,49 @@
             <nav class="menu_bar">
                 <img src="logo-removebg-preview.png" class="logo" width="40px">
                 <ul>
-                <li><a href="#">aptitude</a>
+                <li><a href="#">Aptitude</a>
                     <div class="dropdown-1">
                     <ul >
-                        <li><a href="aptitude.html">aptitude</a></li>
+                        <li><a href="aptitude.html">Aptitude</a></li>
                         <br>
-                        <li><a href="./database/reasoning.html">reasoning</a></li>
+                        <li><a href="./database/reasoning.html">Reasoning</a></li>
                         <br>
-                        <li><a href="logicalquestion.html">logical</a></li>
+                        <li><a href="logicalquestion.html">Logical</a></li>
                         <br>
-                        <li><a href="./dropdown/verbal_ability.html">test</a></li>
+                        <li><a href="./dropdown/verbal_ability.html">Test</a></li>
                      </ul>
                      </div>
                   </li>
-                <li><a href="#">verbal & non verbal</a>
+                <li><a href="#">Verbal & Non-Verbal</a>
                     <div class="dropdown-2">
                     <ul>
-                        <li><a href="./dropdown/synonym.html">synonym</a></li>
+                        <li><a href="./dropdown/synonym.html">Synonym</a></li>
                         <br>
-                        <li><a href="./dropdown/antonym.html">antonym</a></li>
+                        <li><a href="./dropdown/antonym.html">Antonym</a></li>
                         <br>
-                        <li><a href="./dropdown/phrase.html">phrase & verbs</a></li>
+                        <li><a href="./dropdown/phrase.html">Phrase & Verbs</a></li>
                     </ul>
                     </div>
             </li>
-                <li><a href="#">clock problem</a>
+                <li><a href="#">Clock Problem</a>
                     <div class="dropdown-3">
                     <ul >
-                        <li><a href="./dropdown/time&age.html">time & age</a></li>
+                        <li><a href="./dropdown/time&age.html">Time & Age</a></li>
                         <br>
-                        <li><a href="#">difference</a></li>
+                        <li><a href="#">Difference</a></li>
                         <br>
-                        <li><a href="#">architectural</a></li>
+                        <li><a href="#">Architectural</a></li>
                      </ul>
                     </div>
                 </li>
-                <li><a href="#">numerical approach</a>
+                <li><a href="#">Numerical Approach</a>
                     <div  class="dropdown-4">
                     <ul>
-                    <li><a href="./dropdown/number_system.html">number system</a></li>
+                    <li><a href="./dropdown/number_system.html">Number System</a></li>
                     <br>
-                    <li><a href="./dropdown/square&cube.html">square & cube</a></li>
+                    <li><a href="./dropdown/square&cube.html">Square & Cube</a></li>
                     <br>
-                    <li><a href="./dropdown/root.html">root</a></li>
+                    <li><a href="./dropdown/root.html">Root</a></li>
             </ul>
         </div>
         </li>
@@ -90,7 +90,7 @@
             <div class="profile_section">
     <img src="./image/Aloknath Pal.png"height="50px" width="50px" class="profile" id="image">
     <div id="hide">
-        <p>profile</p>
+        
         <p id="hide1" ><a href="index.html">Log out</a></p>
     </div>
             </ul>
@@ -99,7 +99,7 @@
         <br>
         
        
-        <hr>
+        
     <div class="container1">
      <div class="items">
         <div class="items-1">
@@ -168,7 +168,7 @@
     </div>
     </div>
     <div class="news-and-notice">
-        <h1>news and notice</h1>
+        
     <div class="main">
         <h1>Latest News</h1>
         <section id="news">
@@ -198,6 +198,11 @@
     </div>
     </div>
 </div>
+<div class="footer">
+    <p>privacy policy</p>
+    <p> <a href="contact.html">Contact us</a></p>
+    <p> <a href="about.html">About us</a></p>
+</div>
 <div id="test">
     <div class="child" id="chatbot">
         <div class="header">
@@ -221,11 +226,8 @@
         </div>
     </div>
 </div>
-<div class="footer">
-    <p>privacy policy</p>
-    <p> <a href="contact.html">Contact us</a></p>
-    <p> <a href="about.html">About us</a></p>
-</div>
+
+<div class="top"><button id="init">start</button></div>
 <script>
     let image=document.getElementById("image");
     let profile=document.querySelector(".profile");
@@ -237,49 +239,30 @@
        image.onclick=function(){
             hide.classList.toggle('active');
         }
-        // function show(){
-        //    if(isshow){
-        //         prof.style.display="none";
-        //         isshow=false;
-        //    }
-        //    else{
-        //     prof.style.display="block";
-        //     isshow=true;
-        //    }
-        // }  
-        // image.addEventListener("click",()=>{
-        //     if(isshow==true){
-        //         hide.style.display="block";
-        //     }
-        //     else{
-        //         hide.style.display="none";
-
-        //     }
-        // })
        
 
     
     let form=document.querySelector(".suggestion_form");
     let signup=document.querySelector(".signup");
     let login=document.querySelector(".login");
-    login.addEventListener("click",()=>{
-        // console.log("hi");
-        open("http://localhost:8085/");
-    })
-    signup.addEventListener("click",()=>{
-        // console.log("hi");
-        open("http://localhost:8085/signup");
-    })
-    form.addEventListener("click",()=>{
-    var a=false;
-    a=confirm("hi");
-      if(a==true){
-        open("https://forms.gle/EnfryzUoh8xnipCT8")
-      }
-       else if(a==false){
-         open("http://127.0.0.1:5501/");
-       }
-    })
+    // login.addEventListener("click",()=>{
+    //     // console.log("hi");
+    //     open("http://localhost:8085/");
+    // })
+    // signup.addEventListener("click",()=>{
+    //     // console.log("hi");
+    //     open("http://localhost:8085/signup");
+    // })
+    // form.addEventListener("click",()=>{
+    // var a=false;
+    // a=confirm("hi");
+    //   if(a==true){
+    //     open("https://forms.gle/EnfryzUoh8xnipCT8")
+    //   }
+    //    else if(a==false){
+    //      open("http://127.0.0.1:5501/");
+    //    }
+    // })
     
 
 
@@ -309,8 +292,8 @@ async function fetchNews() {
 fetchNews();
 window.addEventListener('load',fetchNews);
 
-</script>
-
+</script> 
+<script src="chatbot.js"></script>
 </body>
 
 </html>

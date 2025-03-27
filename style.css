@@ -7,7 +7,7 @@
 .menu_bar{
     background: linear-gradient(45deg,#fce0e3,#29225b,#a4a3a1,#204e43);
     height:50px;
-    width:99%;
+    width:1560px;
     align-items: center;
     justify-content: space-around;
     padding: 0px 10px;
@@ -154,9 +154,10 @@ list-style: none;
 }
 .search{
 border:2px solid black;
+margin-top:-15px;
 border-radius: 10px;
-height:20px;
-width:auto;
+height:30px;
+width:200px;
 
 
 }
@@ -449,54 +450,66 @@ height:50px;
 }
 .item-6 li {
     margin:10px 45px;
+
 }
 .item-1 li a{
     color: cornsilk;
-    font-size: 16px;
+    font-size: 23px;
+    text-decoration: none;
+
 }
 .item-2 li a{
     color: cornsilk;
-    font-size: 16px;
+    font-size: 23px;
+    text-decoration: none;
+
 }
 .item-5 li a{
     color: cornsilk;
-    font-size: 16px;
+    font-size: 23px;
+    text-decoration: none;
+
 }
 .item-3 li a{
     color: cornsilk;
-    font-size: 14px;
+    font-size: 23px;
+    text-decoration: none;
+
 }
 .item-4 li a{
     color: cornsilk;
-    font-size: 16px;
+    font-size: 23px;
+    text-decoration: none;
 }
 .item-6 li a{
     color: cornsilk;
-    font-size: 16px;
+    font-size: 23px;
+    text-decoration: none;
+
 }
 .item-1 h1{
     color: rgb(240, 240, 126);
-    font-size:30px;
+    font-size:38px;
 }
 .item-2 h1{
     color: rgb(240, 240, 126);
-    font-size:30px;
+    font-size:38px;
 }
 .item-5 h1{
     color: rgb(240, 240, 126);
-    font-size:24px;
+    font-size:38px;
 }
 .item-3 h1{
     color: rgb(240, 240, 126);
-    font-size:30px;
+    font-size:38px;
 }
 .item-4 h1{
     color: rgb(240, 240, 126);
-    font-size:30px;
+    font-size:38px;
 }
 .item-6 h1{
     color: rgb(240, 240, 126);
-    font-size:30px;
+    font-size:38px;
 }
 .container-1{
     height:500px;
@@ -532,10 +545,10 @@ height:50px;
     margin-left:400px;
 }
 .main{
-    margin: 40px 10px;
+    margin: 37px 10px;
     border:5px solid white;
-    width:100%;
-    height:87%;
+    width:96%;
+    height:100%;
     border-radius: 5px;
     overflow: hidden;
    
@@ -700,7 +713,7 @@ h2{
 }
 .header{
     position:absolute;
-    top: 395px;
+    top: 340px;
     display: flex;
     
     align-items: center;
